@@ -2,26 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer utilities {
+  .justify-normal {
+    justify-content: normal;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.home-gradient {
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    180deg,
+    #11224f 0%,
+    #1a3b71 24.099999999999998%,
+    #2c599d 49.8%,
+    #5c84c5 74.9%,
+    #fff 100%
+  );
+}
+
+/* .background-image {
+  background-image: url('./assets/laptop.png');
+} */
+
+.wrap-balance {
+  text-wrap: balance;
 }
