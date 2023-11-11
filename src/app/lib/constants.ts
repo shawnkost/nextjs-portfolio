@@ -26,28 +26,28 @@ export const aboutMe = {
     'Since a young age I have had a love for anything that involves computers and technology. I began with technical theater learning the ins and outs of stage production and lighting design. That passion has only grown with time which led to my first job as a computer technician, where I integrated computer systems and servers. Ultimately this led me to discovering the world of computer programming with an immense desire to pursue a career within it! I am excited to join a company that will not only challenge me, but help me grow into a better developer.'
 };
 
-// export const socials = [
-//   {
-//     name: 'email',
-//     icon: email,
-//     link: 'mailto:shawnmkost@gmail.com',
-//   },
-//   {
-//     name: 'linkedin',
-//     icon: linkedin,
-//     link: 'https://www.linkedin.com/in/shawnkost/',
-//   },
-//   {
-//     name: 'instagram',
-//     icon: instagram,
-//     link: 'https://instagram.com/shawnmkost',
-//   },
-//   {
-//     name: 'github',
-//     icon: github,
-//     link: 'https://github.com/shawnkost',
-//   },
-// ];
+export const socials = [
+  {
+    name: 'email',
+    icon: '/email.svg',
+    link: 'mailto:shawnmkost@gmail.com'
+  },
+  {
+    name: 'linkedin',
+    icon: '/linkedin.svg',
+    link: 'https://www.linkedin.com/in/shawnkost/'
+  },
+  {
+    name: 'instagram',
+    icon: '/instagram.svg',
+    link: 'https://instagram.com/shawnmkost'
+  },
+  {
+    name: 'github',
+    icon: '/github.svg',
+    link: 'https://github.com/shawnkost'
+  }
+];
 
 export const skills = [
   {
@@ -107,7 +107,7 @@ export const projects = [
     title: 'AniManiac',
     description:
       'A web application that lets the user view the top anime of all time, along with currently airing and upcoming shows',
-    image: animaniac,
+    image: '/animaniac.png',
     buttons: [
       {
         text: 'View Demo',
@@ -123,7 +123,7 @@ export const projects = [
     title: 'Discord Bot',
     description:
       'A discord bot for users to check various stock prices, receive a daily inspirational quote, or sends them encouragement messages when say a keyword',
-    image: edit,
+    image: '/.png',
     buttons: [
       {
         text: 'View Demo',
@@ -139,7 +139,7 @@ export const projects = [
     title: 'Magic 8-Ball',
     description:
       'A magic 8-ball that will give you a random answer for each question the user asks',
-    image: magicball,
+    image: '/8ball.png',
     buttons: [
       {
         text: 'View Demo',
