@@ -1,7 +1,6 @@
 name: Format the code
 
 on:
-  push:
   pull_request:
 
 jobs:
@@ -14,7 +13,7 @@ jobs:
         with:
           node-version: "16"
       - name: Prettier
-        run: npx prettier --write **/*.js
+        run: npx prettier --write **/*.{json,js,ts,tsx}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
