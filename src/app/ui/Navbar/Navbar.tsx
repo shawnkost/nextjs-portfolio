@@ -1,7 +1,7 @@
 'use client';
 
 import { navLinks } from '@/app/lib/constants';
-import { NavLinks } from './NavLinks';
+import { NavLinks } from '@/app/ui/Navbar/NavLinks';
 import Image from 'next/image';
 import { useState } from 'react';
 

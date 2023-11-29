@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: "16"
+          node-version: '16'
       - name: Prettier
         run: npx prettier --write **/*.{json,js,ts,tsx}
         env:
@@ -20,4 +20,4 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         if: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' }}
         with:
-          commit_message: "style: format files"
+          commit_message: 'style: format files'

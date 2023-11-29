@@ -1,7 +1,9 @@
 import { aboutMe, socials } from '@/app/lib/constants';
 import Button from '@/app/ui/Button';
 import Image from 'next/image';
+
 import { AboutLinks } from './AboutLinks';
+
 const AboutMe: React.FC = () => {
   return (
     <div id='about' className='mb-6 w-full scroll-mt-20  px-6 md:scroll-mt-12'>
